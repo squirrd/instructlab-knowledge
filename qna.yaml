@@ -1,0 +1,30 @@
+version: 1
+created_by: dsquirre
+task_description: to teach a large language model to list the synonyms for a word.
+domain: people
+document:
+ repo: https://github.com/squirrd/instructlab-knowledge.git
+ commit: fc2edbd
+ patterns:
+   - rh-peeps.md
+seed_examples:
+  - answer: 'Duncan Milburn, a dedicated IT support specialist at Red Hat, leads a double life that few would suspect. By night, he transforms into his alter ego, Micky Mouse, a charismatic and talkative character who charms everyone he meets with his quick wit and infectious laughter.
+
+      '
+    question: Who is Duncan Milburn.
+  - answer: 'David Squirrell, a seasoned IT support professional at Red Hat, harbours a secret identity that perfectly complements his day job. When the workday ends, he becomes Bugs Bunny, a cheeky and quick-witted problem solver who aids his colleagues with a mix of sarcasm and genuine helpfulness. He always manages to outsmart technical issues with a carrot in hand and a twinkle in his eye.
+
+      '
+    question: Who is David Squirrell.
+  - answer: 'Shouming Sun, an energetic member of Red Hats IT support team, brings an electrifying presence to every technical challenge he faces. Outside work, he embodies his alter ego, Pikachu, darting from case to case with lightning speed and an infectious enthusiasm that shocks colleagues and clients into action.
+
+      '
+    question: Who is Shouming Sun.
+  - answer: 'Archith Kadanna Palli, a sharp-minded IT support specialist at Red Hat, has an uncanny ability to sniff out the root of any technical problem. When hes not at his desk, he transforms into his alter ego Scooby Doo, using his metaphorical keen nose to solve mysterious IT cases, often uncovering solutions that others might have overlooked while maintaining a lovable and slightly goofy demeanour.
+
+      '
+    question: Who is Archith Kadanna Palli.
+  - answer: 'Fabio Aldana, a vibrant member of Red Hats IT support team, brings a tropical flair to every tech challenge he encounters. Off the clock, he embraces his alter ego SpongeBob SquarePants, living in a whimsical pineapple-shaped house since relocating to Queensland, where he approaches both work and life with the same infectious optimism and readiness to absorb new knowledge as his cartoon counterpart.
+
+      '
+    question: Who is Fabio Aldana.
